@@ -1,11 +1,383 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    Satellite Website 
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Satellite-Tech</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link  rel="shortcut icon" href="assets/img/favicon.ico">
+  <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+
+
+<body class="index-page">
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope-fill"></i><a href="mailto:admin@satellite-tech.in">admin@satelite-tech.in</a>
+        <i class="bi bi-phone-fill phone-icon"><a href="tel:+91 9820771016">+91 9820771016</a></i> 
+      </div>
+      <div class="social-links d-none d-md-block">
+        <a href="https://www.linkedin.com/company/satelltetech/" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Top Bar ======= -->
+
+  <header id="header" class="header  d-flex align-items-center ">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center ">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <img src="assets/img/logo.png" alt="">
+        <h1 class="sitename">Satellite-Tech</h1>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#" class="active">Home<br></a></li>
+          <li><a href="About.html">About Us</a></li>
+          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="services_1.html">Cloud Solutions & Optimizations</a></li>
+              <li><a href="services_2.html">Cloud Migration and Enablement</a></li>
+              <li><a href="services_3.html">AWS Well Architecture Review</a></li>
+              <li><a href="services_4.html">Integrated AWS IoT Solutions</a></li>
+              <li><a href="services_5.html">Serverless Implementations</a></li>
+              <li><a href="services_6.html">AWS Networking and Development</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h1 data-aos="fade-up">Welcome to Satellite-Tech</h1>
+            <p data-aos="fade-up" data-aos-delay="100">With IT experience, we specialize in Cloud, DevOps, and IoT services. Our team has partnered with MNCs, SMEs, 
+              and startups across the UK, Netherlands, Germany, and India, delivering solutions that are scalable, reliable, sustainable, cost-efficient, and cyber-secure.</p>
+            <div class="d-flex flex-column flex-md-row" data-aos="fade-up" data-aos-delay="200">
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <!-- <section id="about" class="about section">
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/20944999.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h3>About Us</h3>
+              <h2>Welcome to Satellite-Tech</h2>
+              <p>With over 16 years of IT experience, we specialize in Cloud, DevOps, and IoT services. Our team has partnered with MNCs, SMEs, 
+                and startups across the UK, Netherlands, Germany, and India, delivering solutions that are scalable, reliable, sustainable, cost-efficient, and cyber-secure.</p>
+              <div class="text-center text-lg-start">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>/About Section -->
+
+    <!-- Values Section -->
+    <section id="values" class="values section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>What we value most</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card">
+              <img src="assets/img/values-1.png" class="img-fluid" alt="">
+              <h3>Our Mission</h3>
+              <p>Delivering scalable, reliable IT solutions with a focus on cloud services, DevOps, and IoT.</p>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card">
+              <img src="assets/img/values-2.png" class="img-fluid" alt="">
+              <h3>Our Vision</h3>
+              <p>Leading IT innovation and building lasting client relationships through exceptional service.</p>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card">
+              <img src="assets/img/values-3.png" class="img-fluid" alt="">
+              <h3>Our Values</h3>
+              <p>Integrity, Innovation, Excellence, Collaboration, Teamwork and Customer-Centricity.</p>
+            </div>
+          </div><!-- End Card Item -->
+
+        </div>
+      </div>
+    </section><!-- /Values Section -->
+
+
+
+    <!-- Services Section -->
+      <section id="services" class="services section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Products & Services</h2>
+          <p>Check Our Products & Services<br></p>
+        </div><!-- End Section Title -->
+
+        <div class="container">
+
+          <div class="row gy-4">
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-item item-cyan position-relative">
+                <i class="bi bi-activity icon"></i>
+                <h3>Cloud Solutions & Optimizations</h3>
+                <p></p>
+              </div>
+            </div><!-- End Service Item -->
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-item item-orange position-relative">
+                <i class="bi bi-arrow-left-right icon"></i>
+                <h3>Cloud Migration and Enablement</h3>
+                <p></p>
+              </div>
+            </div><!-- End Service Item -->
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-item item-teal position-relative">
+                <i class="bi bi-clipboard2-check icon"></i>
+                <h3>AWS Well Architecture Review</h3>
+                <p></p>
+              </div>
+            </div><!-- End Service Item -->
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="service-item item-red position-relative">
+                <i class="bi bi bi-cpu-fill icon"></i>
+                <h3>Integrated AWS IoT Solutions</h3>
+                <p></p>
+              </div>
+            </div><!-- End Service Item -->
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+              <div class="service-item item-indigo position-relative">
+                <i class="bi bi bi-database-fill icon"></i>
+                <h3>Serverless Implementations</h3>
+                <p></p>
+              </div>
+            </div><!-- End Service Item -->
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+              <div class="service-item item-pink position-relative">
+                <i class="bi bi-globe icon"></i>
+                <h3>AWS Networking and Development</h3>
+                <p></p>
+              </div>
+            </div><!-- End Service Item -->
+          </div>
+        </div>
+      </section><!-- /Services Section -->
+
+      <!-- Faq Section -->
+      <!-- /Faq Section -->
+
+      <!-- Portfolio Section -->
+      <!-- /Portfolio Section -->
+
+      <!-- Testimonials Section -->
+      <!-- /Testimonials Section -->
+
+      <!-- Team Section -->
+      <!-- /Team Section -->
+
+      <!-- Clients Section -->
+      <!-- /Clients Section -->
+
+      <!-- Recent Posts Section -->
+      <!-- /Recent Posts Section -->
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </div><!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-md-6">
+              <div class="info-item" data-aos="fade" data-aos-delay="200">
+                <i class="bi bi-geo-alt"></i>
+                <h3>Address</h3>
+                <!-- Clickable address link -->
+                <a href="https://www.google.com/maps/place/Satellite+Industries/@20.1793246,72.7774244,17z/data=!3m1!4b1!4m5!3m4!1s0x3be72b5fa80c4897:0x62a58a6fca088c3b!8m2!3d20.1793246!4d72.7796184"
+                  target="_blank" referrerpolicy="no-referrer-when-downgrade">
+                  <p>Plot No. 2802/D</p>
+                  <p>3rd Phase, GIDC, Umbergam</p>
+                  <p>Gujarat - India</p>
+                </a>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-md-6">
+              <div class="info-item" data-aos="fade" data-aos-delay="300">
+                <i class="bi bi-telephone"></i>
+                <h3>Call Us</h3>
+                <p><a href="tel:+91 9820771016">+91 9820771016</a></p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-md-6">
+              <div class="info-item" data-aos="fade" data-aos-delay="400">
+                <i class="bi bi-envelope"></i>
+                <h3>Email Us</h3>
+                <p><a href="mailto:admin@satellite-tech.in">admin@satellite-tech.in</a></p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-md-6">
+              <div class="info-item" data-aos="fade" data-aos-delay="500">
+                <i class="bi bi-clock"></i>
+                <h3>Open Hours</h3>
+                <p>Monday - Saturday</p>
+                <p>9:00AM - 06:00PM</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+
+
+
+          <!-- End Contact Form -->
+
+        </div>
+
+      </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">Satellite-Tech</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <strong>Address:</strong>
+            <p>Plot No. 2802/D</p>
+            <p>3rd Phase GIDC, Umbergam</p>
+            <p>Gujarat - India</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+91 9820771016</span></p>
+            <p><strong>Email:</strong> <span>admin@satellite-tech.in.</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="about.html">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="services_1.html">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="services_1.html">Cloud Solutions & Optimizations</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="services_2.html">Cloud Migration and Enablement</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="services_3.html">AWS Well Architecture Review</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="services_4.html">Integrated AWS IoT Solutions</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="services_5.html">Serverless Implementations</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="services_6.html">AWS Networking and Development</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Satellite-Tech</strong> <span>All Rights Reserved</span>
+      </p>
+
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
